@@ -1,0 +1,43 @@
+#apartado1{
+    border: 3px solid brown;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 22px;
+}
+p{
+    text-align: center;
+    color: aquamarine;
+    background-color: black;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 35px;
+   font-size: 32px;
+}
+.apartado2{
+    background: black;
+    color: wheat;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    /*BORDER REDONDEADOS*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 20px;
+}
+.apartado3{
+    background: black;
+    color: wheat;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    /*BORDER REDONDEADOS*/
+    border-radius:20px 10px 15px 15px ;
+    /*border-radius:top/left - botton/right 
+     top/right- botton/left ;*/
+     /*border-radius:10px 25px ;*/
+
+}
